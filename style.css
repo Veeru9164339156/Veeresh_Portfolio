@@ -51,12 +51,20 @@ h6 {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    .container{
+        row align-items-center{
+        display: flex;
+        gap: 80px;
+    }
+    }
+    
 }
 
 .hero-section h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
 }
+
 
 .hero-section .lead {
     font-size: 1.25rem;
